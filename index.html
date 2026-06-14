@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Bengali:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+        rel="stylesheet">
+
+    <title>Prithok Halder</title>
+</head>
+
+<body class="font-['Plus_Jakarta_Sans']">
+
+    <!-- Navbar -->
+    <div class="grid grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto h-20">
+        <div class="flex p-5">
+            <p class="h-9 border border-gray-300 bg-white font-semibold shadow-lg p-1 rounded-sm">PH</p>
+            <h6 class="text-xl ml-3 font-semibold">Prithok Halder</h6>
+        </div>
+
+        <div class="p-5 space-x-6 hidden lg:flex">
+            <p class="text-gray-500 border-b-2 border-transparent hover:border-gray-500 cursor-pointer">Services</p>
+            <p class="text-gray-500 border-b-2 border-transparent hover:border-gray-500 cursor-pointer">Work</p>
+            <p class="text-gray-500 border-b-2 border-transparent hover:border-gray-500 cursor-pointer">About Me</p>
+            <p class="open-modal text-gray-500 border-b-2 border-transparent hover:border-gray-500 cursor-pointer">
+                Contact
+            </p>
+        </div>
+
+        <div class="py-4 justify-self-center">
+            <button class="open-modal bg-black text-white py-2 px-4 rounded-lg">
+                Contact Me
+            </button>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="bg-gray-100 py-4 lg:py-10">
+        <div class="grid lg:grid-cols-2 items-center max-w-7xl mx-auto">
+
+            <div class="p-6 lg:p-10">
+                <h1 class="text-4xl font-bold my-4">Prithok Halder</h1>
+
+                <p class="tracking-wide">
+                    I’m a computer engineer. I’m expert in HTML, Tailwind CSS, JavaScript and Python.
+                    I’m studying problem solving and I solved 22 problems on Toph and many problems on Codeforces.
+                    My personal information: My name is Prithok, I’m 14 years old, I’m studying in class 8.
+                    My school name is Naya Bazar High School.
+                </p>
+
+                <div class="my-5 space-x-2 space-y-2">
+                    <span class="p-1 border border-gray-400 rounded-xl text-xs bg-gray-100">HTML</span>
+                    <span class="p-1 border border-gray-400 rounded-xl text-xs bg-gray-100">CSS</span>
+                    <span class="p-1 border border-gray-400 rounded-xl text-xs bg-gray-100">PYTHON</span>
+                    <span class="p-1 border border-gray-400 rounded-xl text-xs bg-gray-100">JAVASCRIPT</span>
+                    <span class="p-1 border border-gray-400 rounded-xl text-xs bg-gray-100">Tailwind CSS</span>
+                    <span class="p-1 border border-gray-400 rounded-xl text-xs bg-gray-100">C++</span>
+                </div>
+
+                <div>
+                    <button class="open-modal bg-black text-white px-4 py-3 rounded-xl mr-3">
+                        Contact Me
+                    </button>
+
+                    <button class="bg-gray-50 text-black px-4 py-3 rounded-xl border border-gray-400">
+                        Download Resume
+                    </button>
+                </div>
+            </div>
+
+            <div class="m-10 relative w-[400px] lg:w-[480px] rounded-xl border border-gray-200 bg-white p-2 shadow-sm">
+
+                <div class="h-[300px] lg:h-[385px] overflow-hidden rounded-lg">
+                    <img class="h-full w-full object-cover"
+                        src="https://scontent.fdac191-1.fna.fbcdn.net/v/t39.30808-1/478710309_122154878324339841_5583315776934242947_n.jpg?stp=dst-jpg_tt6&cstp=mx948x960&ctp=s480x480&_nc_cat=100&ccb=1-7&_nc_sid=e99d92&_nc_ohc=dI2kVTP2l24Q7kNvwEgu4pZ&_nc_oc=AdocN7OZxsuqrpDcSYQGYtOJsyyUZggmDvTejBsl1-lSgzImdHsh2g_8pbC_Y9a1uIs&_nc_zt=24&_nc_ht=scontent.fdac191-1.fna&_nc_gid=Mj-LyyU7UquG5nMkP0Sifg&_nc_ss=7c289&oh=00_Af-sQ1prWyJIQSgCAWHtLkuTEuGIP1Z55Uh2U-_0HeUCAA&oe=6A2AB154"
+                        alt="Profile image">
+                </div>
+
+                <span
+                    class="absolute -bottom-5 left-5 z-20 rounded-md border border-gray-200 bg-white px-4 py-2 text-xs text-gray-600 shadow-md">
+                    Shipping full-stack features • Real-time • Stable deployments
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Brands Title -->
+    <div class="text-center my-10">
+        <h1 class="text-2xl font-bold">Brands That Trust Us for Their Digital Commerce Solutions</h1>
+        <p class="text-gray-500 pt-2">Explore the brands who choose us for their unique business journey</p>
+    </div>
+
+    <!-- Projects One -->
+    <div class="grid lg:grid-cols-2 my-10 max-w-7xl mx-auto gap-5">
+
+        <div class="shadow-lg p-5 border rounded-xl border-gray-200 mx-6">
+            <img class="h-[300px] w-full rounded-xl object-cover"
+                src="https://proinsidegh.s3.amazonaws.com/static/upfrica-slider-uk-covers-2.gif?width=1640" alt="">
+
+            <h2 class="text-xl font-bold pt-8">AI-Powered E-commerce: Upfrica</h2>
+
+            <p class="text-gray-400 text-xs py-2">
+                Next.js • React • Python • FastAPI • PostgreSQL • Redis • OpenAI API
+            </p>
+
+            <p class="text-sm text-gray-500">
+                Upfrica leverages WiseBrain’s AI engine for product enrichment, demand forecasting,
+                and personalized recommendations.
+            </p>
+
+            <div class="flex flex-wrap mt-5 gap-2">
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">Automated product tagging</p>
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">Personalized recommendations</p>
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">AI search</p>
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">Demand forecasting</p>
+            </div>
+        </div>
+
+        <div class="shadow-lg p-5 border rounded-xl border-gray-200 mx-6">
+            <img class="h-[300px] w-full rounded-xl object-cover"
+                src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg" alt="">
+
+            <h2 class="text-xl font-bold pt-8">AI-driven Social Interface: TryTales</h2>
+
+            <p class="text-gray-400 text-xs py-2">
+                React • Next.js • WebSockets • Django • DRF • Vector DB • OpenAI API
+            </p>
+
+            <p class="text-sm text-gray-500">
+                TryTales uses conversational AI to power creation, curation, and moderation.
+                Real-time feeds are ranked with embeddings and feedback loops.
+            </p>
+
+            <div class="flex flex-wrap mt-5 gap-2">
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">Real-time chat</p>
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">AI drafting</p>
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">Feed ranking</p>
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">Moderation signals</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Two -->
+    <div class="grid lg:grid-cols-2 my-10 max-w-7xl mx-auto gap-5">
+
+        <div class="shadow-lg p-5 border rounded-xl border-gray-200 mx-6">
+            <img class="h-[300px] w-full rounded-xl object-cover"
+                src="https://images.pexels.com/photos/4968391/pexels-photo-4968391.jpeg" alt="">
+
+            <h2 class="text-xl font-bold pt-8">AI-Enhanced Digital Wallet: Gxchange</h2>
+
+            <p class="text-gray-400 text-xs py-2">
+                React • Node.js • PostgreSQL • Kafka • OpenAI API
+            </p>
+
+            <p class="text-sm text-gray-500">
+                Gxchange blends payments with intelligent insights, anomaly detection,
+                smart budgeting, spend summaries, and finance automation.
+            </p>
+
+            <div class="flex flex-wrap mt-5 gap-2">
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">AI categorization</p>
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">Fraud signals</p>
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">Smart budgeting</p>
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">Spend queries</p>
+            </div>
+        </div>
+
+        <div class="shadow-lg p-5 border rounded-xl border-gray-200 mx-6">
+            <img class="h-[300px] w-full rounded-xl object-cover"
+                src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg" alt="">
+
+            <h2 class="text-xl font-bold pt-8">WiseBrain Core: Insights & Automation</h2>
+
+            <p class="text-gray-400 text-xs py-2">
+                Python • FastAPI • Airflow • PostgreSQL • Redis • RAG Pipelines
+            </p>
+
+            <p class="text-sm text-gray-500">
+                The WiseBrain platform powers actionable insights across domains by connecting data sources,
+                orchestrating LLM/RAG pipelines, and automating decisions.
+            </p>
+
+            <div class="flex flex-wrap mt-5 gap-2">
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">Unified data layer</p>
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">RAG pipelines</p>
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">Review flows</p>
+                <p class="text-sm bg-gray-200 p-2 rounded-lg border border-gray-300">Observability</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="bg-gray-100">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto my-20 pt-15 pb-15">
+
+            <div class="m-5 lg:m-0">
+                <h1 class="font-semibold text-2xl">Skills & Roadmap</h1>
+
+                <p class="py-6">
+                    Current strengths used in production and the areas I’m investing in next to improve
+                    reliability, speed, and maintainability.
+                </p>
+
+                <p class="pt-2">
+                    <span class="font-semibold">Core Focus:</span>
+                    Full-stack delivery, real-time features, stable deployments.
+                </p>
+
+                <p class="pt-4">
+                    <span class="font-semibold">Next Steps:</span>
+                    Type safety, testing discipline, CI/CD, and cloud security.
+                </p>
+            </div>
+
+            <div class="col-span-2 mx-5 lg:mx-10 my-5 lg:my-0">
+                <h1 class="font-semibold text-2xl mb-10">Core Skills</h1>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+                    <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg">
+                        <h3 class="font-bold my-2">
+                            <i class="fa-solid fa-mobile mr-2"></i>React Native Mobile
+                        </h3>
+
+                        <p class="text-sm text-gray-700">• Navigation, forms, animations</p>
+                        <p class="text-sm text-gray-700">• RTK Query, WebSocket streaming</p>
+                        <p class="text-sm text-gray-700">• Robust error handling and caching</p>
+
+                        <div class="flex flex-wrap mt-3 gap-2">
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">React Native</p>
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">RTK Query</p>
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">Safety</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg">
+                        <h3 class="font-bold my-2">
+                            <i class="fa-solid fa-server mr-2"></i>Django & DRF Backend
+                        </h3>
+
+                        <p class="text-sm text-gray-700">• Token/JWT auth, permissions, throttling</p>
+                        <p class="text-sm text-gray-700">• Celery + Redis for scheduled tasks</p>
+                        <p class="text-sm text-gray-700">• Channels/Daphne for real-time</p>
+
+                        <div class="flex flex-wrap mt-3 gap-2">
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">Django</p>
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">DRF</p>
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">Celery</p>
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">Redis</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg">
+                        <h3 class="font-bold my-2">
+                            <i class="fa-solid fa-ship mr-2"></i>Deployments
+                        </h3>
+
+                        <p class="text-sm text-gray-700">• Nginx reverse proxy, SSL, health checks</p>
+                        <p class="text-sm text-gray-700">• Gunicorn/Daphne process models</p>
+                        <p class="text-sm text-gray-700">• Containerization and environment configs</p>
+
+                        <div class="flex flex-wrap mt-3 gap-2">
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">Nginx</p>
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">Docker</p>
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">Gunicorn</p>
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">Daphne</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white p-5 rounded-lg shadow-md hover:shadow-lg">
+                        <h3 class="font-bold my-2">
+                            <i class="fa-solid fa-code mr-2"></i>Frontend Development
+                        </h3>
+
+                        <p class="text-sm text-gray-700">• HTML, CSS, Tailwind CSS</p>
+                        <p class="text-sm text-gray-700">• JavaScript and React basics</p>
+                        <p class="text-sm text-gray-700">• Responsive landing pages</p>
+
+                        <div class="flex flex-wrap mt-3 gap-2">
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">HTML</p>
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">CSS</p>
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">JavaScript</p>
+                            <p class="text-sm bg-gray-100 py-1 px-2 rounded-2xl border border-gray-300">Tailwind</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="bg-black p-10 lg:p-20">
+        <div class="text-center">
+            <h1 class="text-white text-4xl font-semibold tracking-wider">Let’s Start the Conversation</h1>
+
+            <p class="text-gray-300 py-3">
+                Your needs and questions are important; let’s develop the best solutions together.
+            </p>
+
+            <button class="open-modal bg-white text-black text-lg font-semibold px-7 py-2 rounded-lg hover:bg-gray-100">
+                Let’s Talk
+            </button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-13 gap-5 mx-5 md:mx-10 lg:mx-35">
+
+            <div
+                class="flex bg-white/15 hover:bg-white/20 p-5 rounded-xl border border-gray-700 duration-300 hover:-translate-y-1 hover:scale-101 hover:bg-indigo-500">
+                <div class="bg-white/15 p-5 w-15 rounded-full">
+                    <i class="text-white fa-solid fa-phone"></i>
+                </div>
+
+                <div>
+                    <p class="text-white pt-2 pl-4 font-semibold">+8801706070169</p>
+                    <p class="pl-4 pt-2 text-gray-400">Mobile</p>
+                </div>
+            </div>
+
+            <div
+                class="flex bg-white/15 hover:bg-white/20 p-5 rounded-xl border border-gray-700 duration-300 hover:-translate-y-1 hover:scale-101 hover:bg-indigo-500">
+                <div class="bg-white/15 p-5 pl-4 w-15 rounded-full">
+                    <i class="text-white text-xl fa-regular fa-envelope"></i>
+                </div>
+
+                <div>
+                    <p class="text-white pt-2 pl-4 font-semibold">prithok@gmail.com</p>
+                    <p class="pl-4 pt-2 text-gray-400">Mail</p>
+                </div>
+            </div>
+
+            <div
+                class="flex bg-white/15 hover:bg-white/20 p-5 rounded-xl border border-gray-700 duration-300 hover:-translate-y-1 hover:scale-101 hover:bg-indigo-500">
+                <div class="bg-white/15 p-5 pl-4 w-15 rounded-full">
+                    <i class="text-white text-xl fa-brands fa-facebook"></i>
+                </div>
+
+                <div>
+                    <p class="text-white pt-2 pl-4 font-semibold">Ram Prithok</p>
+                    <p class="pl-4 pt-2 text-gray-400">Facebook</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Availability -->
+    <div class="bg-gray-100 lg:p-20 p-5">
+        <div
+            class="grid grid-cols-1 md:grid-cols-2 justify-between bg-white border border-gray-200 px-10 py-10 lg:mx-20 rounded-xl shadow-lg">
+
+            <div>
+                <p class="text-gray-400">Availability</p>
+                <h4 class="text-xl font-semibold">Open to freelance & remote roles</h4>
+                <p class="text-gray-500">Building performant web apps with React, Next.js, Django/DRF & PostgreSQL.</p>
+            </div>
+
+            <div class="my-4 lg:my-0">
+                <button class="open-modal bg-black text-white px-4 py-2 rounded-xl mr-3">
+                    Let’s work together
+                </button>
+
+                <button class="border border-gray-400 text-black px-4 py-2 rounded-lg">
+                    Download CV
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 bg-gray-100">
+
+        <div class="p-10 space-y-1">
+            <h4 class="font-semibold text-xl">Quick Links</h4>
+            <p class="text-sm">Home</p>
+            <p class="text-sm">About</p>
+            <p class="text-sm">Projects</p>
+            <p class="text-sm">Blog</p>
+            <p class="text-sm open-modal cursor-pointer">Contact</p>
+        </div>
+
+        <div class="p-10 space-y-1">
+            <h4 class="font-semibold text-xl">Projects</h4>
+            <p class="text-sm">E-commerce Revamp</p>
+            <p class="text-sm">SaaS Analytics</p>
+            <p class="text-sm">Realtime Collab</p>
+        </div>
+
+        <div class="p-10">
+            <h4 class="text-xl font-semibold">Tech Stack</h4>
+
+            <div class="flex flex-wrap mt-5 gap-2">
+                <p class="bg-white text-sm border border-gray-300 px-2 py-1 rounded">React</p>
+                <p class="bg-white text-sm border border-gray-300 px-2 py-1 rounded">Next.js</p>
+                <p class="bg-white text-sm border border-gray-300 px-2 py-1 rounded">TypeScript</p>
+                <p class="bg-white text-sm border border-gray-300 px-2 py-1 rounded">Node.js</p>
+                <p class="bg-white text-sm border border-gray-300 px-2 py-1 rounded">Python</p>
+                <p class="bg-white text-sm border border-gray-300 px-2 py-1 rounded">Django/DRF</p>
+                <p class="bg-white text-sm border border-gray-300 px-2 py-1 rounded">PostgreSQL</p>
+                <p class="bg-white text-sm border border-gray-300 px-2 py-1 rounded">Redis</p>
+                <p class="bg-white text-sm border border-gray-300 px-2 py-1 rounded">Docker</p>
+                <p class="bg-white text-sm border border-gray-300 px-2 py-1 rounded">AWS</p>
+            </div>
+        </div>
+
+        <div class="bg-white p-5 m-10 mx-15 rounded-xl border border-gray-200">
+            <h4 class="text-xl font-semibold">Newsletter</h4>
+
+            <p class="text-sm my-3 text-gray-500">
+                Occasional notes on performance, DX, and backend scaling.
+            </p>
+
+            <div>
+                <input class="w-40 border border-gray-300 rounded-xl py-2 px-3" type="text"
+                    placeholder="you@example.com">
+
+                <button class="text-white bg-black border border-black py-2 px-3 rounded-xl ml-1">
+                    Subscribe
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center bg-gray-100">
+        <hr class="border-t border-gray-300">
+        <p class="text-gray-500 py-5">Prithok Halder © 2026. All Rights Reserved.</p>
+    </div>
+
+
+
+
+
+    <div  id="contactModal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/60 px-4">
+        <div class="relative bg-white p-10 pt-20 w-4xl mx-auto rounded-xl ">
+            <div id="closeModal" class="absolute right-5 top-5" ><i class=" text-black fa-solid fa-xmark"></i></div>
+            <h2 class="font-semibold text-4xl">Send me a message</h2>
+            <p class="text-sm text-gray-500">I’ll get back to you as soon as possible.</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2 items-center">
+                <div class="flex flex-col">
+                    <label class="mt-7" for="">First Name</label>
+                    <input class=" mt-2 border border-gray-300 py-3 px-3 w-[400px] rounded-lg" type="text"
+                        placeholder="First Name">
+                </div>
+                <div class="flex flex-col">
+                    <label class="mt-7" for="">Last Name</label>
+                    <input class=" mt-2 border border-gray-300 py-3 px-3 w-[390px] rounded-lg" type="text"
+                        placeholder="Last Name">
+                </div>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2 items-center">
+                <div class="flex flex-col">
+                    <label class="mt-7" for="">Email</label>
+                    <input class=" mt-2 border border-gray-300 py-3 px-3 w-[400px] rounded-lg" type="text" placeholder="Email">
+                </div>
+                <div class="flex flex-col">
+                    <label class="mt-7" for="">Phone</label>
+                    <input class=" mt-2 border border-gray-300 py-3 px-3 w-[390px] rounded-lg" type="text" placeholder="Phone">
+                </div>
+            </div>
+            <div class="mr-15 mt-7">
+                <label for="">Message</label>
+                <textarea placeholder="Message" class="p-3 rounded-lg mt-2 border border-gray-300 w-full  h-[100px]"
+                    name="Message" id=""></textarea>
+            </div>
+            <div class="mt-7">
+                <button class="mr-3 border border-black py-3 px-4 bg-black text-white rounded-lg  text-sm">Send Message</button>
+                <button id="closeModal" class="border border-gray-300 py-3 px-4  text-black rounded-lg  text-sm">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Small JavaScript -->
+    <script>
+        const modal = document.getElementById("contactModal");
+        const openButtons = document.querySelectorAll(".open-modal");
+        const closeButton = document.getElementById("closeModal");
+
+        openButtons.forEach(function (button) {
+            button.addEventListener("click", function () {
+                modal.classList.remove("hidden");
+                modal.classList.add("flex");
+            });
+        });
+
+        closeButton.addEventListener("click", function () {
+            modal.classList.add("hidden");
+            modal.classList.remove("flex");
+        });
+
+        modal.addEventListener("click", function (event) {
+            if (event.target === modal) {
+                modal.classList.add("hidden");
+                modal.classList.remove("flex");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
